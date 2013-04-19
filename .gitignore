@@ -8,3 +8,6 @@ spec/cassettes
 spec/cassettes/*
 .idea
 .project
+tmp/
+coverage
+log/*.log
