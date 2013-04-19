@@ -1,0 +1,5 @@
+<tr>
+  <td><%= link_to job.title, :action => :details, :did => job.did%></td>
+  <td><%= link_to job.company_name, :controller => :company, :action => :details, :did => job.company_did%></td>
+  <td><%= job.location%></td>
+</tr>
