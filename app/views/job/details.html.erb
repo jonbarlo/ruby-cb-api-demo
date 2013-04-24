@@ -1,1 +1,40 @@
 <%= debug @job%>
+
+<div class="row">
+  <div class="span6">
+    <h3><%=  @job.title %></h3>
+  </div>
+  <div class="span6">
+    <%=  @job.company_name %>
+  </div>
+</div>
+
+<div class="row">
+    <div class="span1">Location</div>
+    <div class="span6"><%=  @job.location %></div>
+</div>
+
+<div class="row">
+  <div class="span1">Type</div>
+  <div class="span6"><%=  @job.employment_type %></div>
+</div>
+
+<div class="row">
+  <div class="span1">Description</div>
+  <div class="span6"><%= @job.description.html_safe %></div>
+</div>
+
+<div class="row">
+  <div class="span6"></div>
+  <div class="span6"></div>
+</div>
+
+<div class="row">
+  <div class="span6"></div>
+  <div class="span6"></div>
+</div>
+
+<div class="row">
+  <div class="span6"></div>
+  <div class="span6"></div>
+</div>
