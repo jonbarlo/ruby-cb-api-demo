@@ -7,4 +7,4 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'cb-api'
+gem 'cb-api', '0.1.2'
